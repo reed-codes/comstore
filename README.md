@@ -7,7 +7,8 @@
 
 ```
 
-# 1. Theming
+
+# 1. Theming Documentation
 
 ---
 
