@@ -5,7 +5,9 @@
     1.1 Layout Theming
     1.2 Color Palette Manipulation
 
+
 ```
+
 
 
 # 1. Theming Documentation
