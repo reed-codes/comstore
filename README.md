@@ -1,4 +1,15 @@
-# 1. Theming
+## Table of Contents
+
+```toc
+1. Theming Documentation
+    1.1 Layout Theming
+    1.2 Color Palette Manipulation
+
+```
+
+
+
+# 1. Theming Documentation
 
 ---
 
