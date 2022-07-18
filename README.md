@@ -7,9 +7,7 @@
 
 ```
 
-
-
-# 1. Theming Documentation
+# 1. Theming
 
 ---
 
@@ -191,7 +189,7 @@
     - To allow the components to react to color changes in the color palette, we connect the colors used on the app to the color palette state
     - We use these colors defined in the palette to give our components inline styling
     - The example below shows how we connect the background color of the top-notice component to the primary color chosen for the app and stored in the color palette state
-    - The above pattern is duplicated with every other component in the app that uses a color defined in the app’s color palette object
+    - The below pattern is duplicated with every other component in the app that uses a color defined in the app’s color palette object
         
         ```jsx
            <div
@@ -203,7 +201,7 @@
             ...
         ```
         
-    - This ensures that if the user alters a color connected to the color palette in out sellerconfig state (this can be the primary color, secondary color, primary text color, etc ) , all the components whose colors are connected to the palette values will rerender to use the updated colors
+    - This ensures that if the user alters a color connected to the color palette in our sellerconfig state (this can be the primary color, secondary color, primary text color, etc ), all the components whose colors are connected to the palette values will rerender to use the updated colors
     
     ### 1.2.3 **Styling CSS pseudo-states**
     
