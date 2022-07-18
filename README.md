@@ -1,22 +1,21 @@
-# comstore
-
 # 1. Theming
 
 ---
 
 - **1.1   Layout Theming**
     - **Purpose:** This feature allows us to dynamically render the site's layout and styling on page load - depending on which theme was chosen by the admin.
+    
     - **1.1.1 What is a theme:**
-        - Since every template looks different from every other template,  what we refer to as a ‘theme’ are the styling assets that contribute to this difference in appearance
-            - This includes  the CSS files, fonts used, and any specifically designed components
-                - **Note:** It should be said that for the most part, the templates from which we are extracting themes are almost identical
+        - Since every template looks different from every other template,  what we refer to as a ‘theme’  is the collection of styling assets that contribute to this difference in appearance between templates.
+            - This includes the CSS files, fonts used, and any specifically designed components
+                - **Note:** It should be said that for the most part, the templates from which we are extracting themes are almost identical.
                 - They all follow the exact same pattern when it comes to routes, components as well as general functionality, etc
-                    - What really differentiates them are things like the following:
-                        - How the components are styled by that template's styles.css file
-                        - The fonts used
-                        - How the JSX of each component is structured,
-                            - for example, all the templates are essentially made up of the same kinds of components - what changes is how the JSX of these components are structured in each template
-                            - This difference in JSX structure is for example - the reason that even all the templates have a `footer.jsx` file, visually all the footers look different
+                - What really differentiates them are things like the following:
+                    - How the components are styled by that template's styles.css file
+                    - The fonts used
+                    - How the JSX of each component is structured,
+                        - For example, all the templates are essentially made up of the same kinds of components - what changes is how the JSX of these components is structured in each template
+                        - This difference in JSX structure is for example - the reason that even though all the templates have a `footer.jsx` file, visually all the footers look different
         - In more general terms, we use the term ‘theme’  to refer to the general look and feel of the site
         
     - **1.1.2 Setup process**
@@ -200,5 +199,5 @@
         </Link>
         ```
         
-        - **Note:** this method of using styled-components is only necessary for situations wherein we would like to alter the colors of an element’s pseudo-states
+        - **Note:** This method of using styled-components is only necessary for situations wherein we would like to alter the colors used by an element’s pseudo-states
             - If altering the colors used by an element's pseudo-states is not a requirement, normal inline styling should suffice
